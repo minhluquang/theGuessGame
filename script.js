@@ -95,4 +95,6 @@ document.querySelector('.again').addEventListener('click', function () {
     document.querySelector('.score').textContent = score;
     document.querySelector('body').style.backgroundColor = '#222';
     document.querySelector('.number').style.width = '15rem';
+    document.querySelector('.check').classList.remove('disabled-button');
+    document.querySelector('.check').disabled = false;
 });
