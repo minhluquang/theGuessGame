@@ -107,6 +107,14 @@ h1 {
   cursor: pointer;
 }
 
+.disabled-button {
+  cursor: not-allowed;
+}
+
+.disabled-button:hover {
+  background-color: #eee!important;
+}
+
 .btn:hover {
   background-color: #ccc;
 }
